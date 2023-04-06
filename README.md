@@ -1,11 +1,11 @@
-About rapid-pe
-==============
+About rapid-pe-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rapid-pe-feedstock/blob/main/LICENSE.txt)
 
 Home: https://git.ligo.org/rapidpe-rift/rapidpe/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rapid-pe-feedstock/blob/main/LICENSE.txt)
 
 Summary: RapidPE: The original low-latency gravitational wave parameter estimation code.
 
