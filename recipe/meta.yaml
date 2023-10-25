@@ -1,5 +1,5 @@
 {% set name = "rapid-pe" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rapid_pe-{{ version }}.tar.gz
-  sha256: c269fe191579e128a11824af65948c22deac02addd8b8ea9e769856d73574b6b
+  sha256: 733b283e7159801dd43c4ae7260f8f69b513940e9137516a2d282526f1de01d0
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
   skip: true  # [win]
 
 requirements:
